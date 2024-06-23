@@ -15,12 +15,11 @@
 }
 
 .post-author-container {
-  margin-top: 20px;
-  gap: 1em;
+  gap: 10px;
 }
 
 .avatar-img {
-  width: 40px;
+  width: 30px;
 }
 
 .author-name, .post-title, .category {

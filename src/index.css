@@ -30,6 +30,12 @@ body, .post-author-container {
 
 h1 {
   font-size: 24px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+h1:hover {
+  color: var(--yellow);
 }
 
 .main-container, body, .category{
@@ -49,6 +55,8 @@ h1 {
 
 .post-desc {
   color: var(--grey);
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 @media screen and (min-width: 765px) {
